@@ -7,9 +7,11 @@ st.header("Genetic Algorithm", divider="gray")
 import random
 #POP_SIZE: Number of Chromosomes in our list.
 POP_SIZE = 500
+
+MUT_RATE = st.slider("Select the mutation rate", min_value=0.0, max_value=1.0, value=0.10, step=0.01)
 #MUT_RATE: Rate at which our string will be changed.
 ##MUT_RATE = st.text_input("Enter the mutation rate")
-MUT_RATE = 0.10
+##MUT_RATE = 0.10
 #TARGET: Our goal.
 ##TARGET = 'alfarisi'
 TARGET = st.text_input("Enter your name")
