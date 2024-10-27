@@ -8,7 +8,7 @@ import random
 #POP_SIZE: Number of Chromosomes in our list.
 POP_SIZE = 500
 #MUT_RATE: Rate at which our string will be changed.
-MUT_RATE = 0.2
+MUT_RATE = st.text_input("Enter the mutation rate")
 #TARGET: Our goal.
 #TARGET = 'alfarisi'
 TARGET = st.text_input("Enter your name")
