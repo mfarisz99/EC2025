@@ -276,6 +276,7 @@ for i in range(0, n_population):
     total_dist_all_individuals.append(total_dist_individual(best_mixed_offspring[i]))
 
 
+
 index_minimum = np.argmin(total_dist_all_individuals)
 
 
