@@ -323,4 +323,4 @@ for i, txt in enumerate(shortest_path):
 
 fig.set_size_inches(16, 12)
 # plt.grid(color='k', linestyle='dotted')
-st.pyplot(fiq)
+st.pyplot(fig)
