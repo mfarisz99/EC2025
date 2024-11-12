@@ -1,6 +1,6 @@
 # ackley multimodal function
 from numpy import arange, asarray, exp, sqrt, cos, e, pi, argsort, meshgrid
-from matplotlib import pyplot as plt
+from matplotlib import pyplot
 from mpl_toolkits.mplot3d import Axes3D
 from numpy.random import randn
 from numpy.random import rand
@@ -22,7 +22,7 @@ x, y = meshgrid(xaxis, yaxis)
 # compute targets
 results = objective(x, y)
 # create a surface plot with the jet color scheme
-figure = pyplot.figure()
+fig = pyplot.figure()
 axis = figure.add_subplot(111, projection='3d')
 axis.plot_surface(x, y, results, cmap='jet')
 # show the plot
