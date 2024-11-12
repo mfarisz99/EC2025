@@ -1,6 +1,6 @@
 # ackley multimodal function
 from numpy import arange, asarray, exp, sqrt, cos, e, pi, argsort, meshgrid
-from matplotlib import pyplot
+from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from numpy.random import randn
 from numpy.random import rand
