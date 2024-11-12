@@ -22,11 +22,11 @@ x, y = meshgrid(xaxis, yaxis)
 # compute targets
 results = objective(x, y)
 # create a surface plot with the jet color scheme
-fig = pyplot.figure()
+figure = pyplot.figure()
 axis = figure.add_subplot(111, projection='3d')
 axis.plot_surface(x, y, results, cmap='jet')
 # show the plot
-st.pyplot(fig)
+st.pyplot(figure)
 
 
 
